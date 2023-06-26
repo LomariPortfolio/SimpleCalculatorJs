@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "codehs-js": "^1.2.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
