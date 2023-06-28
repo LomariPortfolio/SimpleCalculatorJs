@@ -1,6 +1,14 @@
 {
-  "dependencies": {
-    "codehs-js": "^1.2.2",
-    "prompt-sync": "^4.2.0"
+  "name": "calcjs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
   }
 }
