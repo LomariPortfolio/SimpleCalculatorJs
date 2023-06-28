@@ -5,15 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SimpleCalcJS</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Calculator</h1>
-    <input id="a" type='number' placeholder="Insert Number">
-    <input id="op" type='text' placeholder="Insert Operator">
-    <input id="b" type='number' placeholder="Insert Number">
-    <button onclick="returnResult()">Calculate</button>
-    <p id="result"></p>
-    <p id="error"></p>
-    <script src="index.js"></script>
+    <h1 class="big">Calculator</h1>
+    <p class="brief">A simple calculator for me to learn HTML/CSS/JS.</p>
+    <div class="insert">
+        <input id="a" type='number' placeholder="Insert Number">
+        <input id="op" type='text' placeholder="Insert Operator">
+        <input id="b" type='number' placeholder="Insert Number">
+    </div>
+    <div class="calcButton">
+        <button onclick="returnResult()">Calculate</button>
+    </div>
+    <div class="meth">
+        <p id="result"></p>
+        <p id="error"></p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

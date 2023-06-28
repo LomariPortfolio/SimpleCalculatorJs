@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(60, 228, 228);
+    animation: body 10s ease-in-out infinite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.big{
+    text-shadow: purple 1px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.brief{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: large;
+}
+.insert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.insert *{
+    border-style:groove;
+    text-shadow: 1.2px 1.2px gray;
+    text-align: center;
+    font-size:1vmax;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+.calcButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    width: 100%;
+}
+
+.meth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+
+@keyframes body{
+    25%{
+        background-color: #e2d8ca;
+    }
+    50%{
+        background-color: #49D49D;
+    }
+}
